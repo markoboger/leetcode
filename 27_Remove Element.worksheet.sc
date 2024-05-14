@@ -21,3 +21,9 @@ object Solution2 {
 }
 
 Solution2.removeElement(Array(3, 2, 2, 3), 3)
+
+//Discussion
+// In Scala, parameter are immutable. Arrays are an exception, in a way.
+// The reference to an Array is also immutable, but the content can be changed.
+// In the first solution, we filter the array and then copy the filtered array back to the original array.
+// In functional programming, we avoid changing the state of variables, as this is considered a side effect.
