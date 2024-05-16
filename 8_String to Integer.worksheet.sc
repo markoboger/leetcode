@@ -8,6 +8,8 @@ c.toString.toInt
 val str1 = "42"
 str1.toInt
 val str2 = "987654321987654321".toList
+Int.MaxValue
+Int.MinValue
 
 str1.toList.take(1).mkString.toInt
 
